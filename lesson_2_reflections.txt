@@ -1,0 +1,31 @@
+What happens when you initialize a repository? Why do you need to do it?
+	It make hidden directory called .git which has all the history of files.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+	staging area contains the changed files which want to be committed.while repository contains the committed changes.
+	It helps to undo changes or commit it .
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+	I can use git diff to show difference between working directory and staging area and see if changes related to one commit or no.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+	Branch are helpful when adding new feature or fix Bug.It help to work on many features at the same time then we can merge it.
+
+How do the diagrams help you visualize the branch structure?
+	We can know the reachability of commits and also can easily know the branches when it made and commits in every branch.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+	It add the changes that made separately on eachbranch to be together and it may cause conflict due to some changes but we can easily fix it.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+	pros:
+		It saves time and effort.
+		We can easily fix conflict.
+	cons:
+		may cause conflict and we have to solve it manually.
+	
